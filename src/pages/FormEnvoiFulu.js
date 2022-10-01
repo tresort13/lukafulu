@@ -55,7 +55,7 @@ function Home(props)
             <Form.Label className='text-dark'><span className='text-danger'>*</span><b> Description de la décharge :</b> </Form.Label>
              <div key ={`inline-radio`} className="mb-3">
                 <Form.Check  inline label="Active" name="description"  type="radio"  id={`inline-radio-1`} />
-                <Form.Check  inline  label="Abondonnéé"  name="description" type="radio"  id={`inline-radio-2`}  />
+                <Form.Check  inline  label="Abondonnée"  name="description" type="radio"  id={`inline-radio-2`}  />
                 <Form.Check inline  label="sauvage" name="description"  type = "radio" id={`inline-radio-3`} />
              </div>
             </Col>
