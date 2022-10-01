@@ -114,7 +114,7 @@ function Home(props)
         <Col xs={12} className="my-auto text-start">
        <Form.Group className="mb-3" controlId="formBasicText" >
         <Form.Label className='text-dark'><span className='text-danger'>*</span> <b>Photo de la décharge :</b> </Form.Label>
-        <Form.Control  type="file" accept='image/*' id="uploader" name="uploader"  required/>
+        <Form.Control  type="file" accept='image/*;capture=camera' id="uploader" name="uploader"  required/>
          </Form.Group>
         </Col>
         </Row>
