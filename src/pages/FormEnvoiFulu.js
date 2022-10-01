@@ -75,8 +75,8 @@ function Home(props)
             <Col xs={12} className="my-auto text-start">
             <Form.Label className='text-dark'><span className='text-danger'>*</span><b> Déchets observés (%) :</b> </Form.Label>
              <div key ={`inline-radio`} className="mb-3">
-                <Form.Check  inline label="MP (matière organique)" name="dechet"  type="radio"  id={`inline-radio-1`} />
-                <Form.Check  inline  label="MP (matière organique)"  name="dechet" type="radio"  id={`inline-radio-2`}  />
+                <Form.Check  inline label="M.O (matière organique)" name="dechet"  type="radio"  id={`inline-radio-1`} />
+                <Form.Check  inline  label="M.P (matière plastique)"  name="dechet" type="radio"  id={`inline-radio-2`}  />
                 <Form.Check inline  label="Divers" name="dechet"  type = "radio" id={`inline-radio-3`} />
              </div>
             </Col>
